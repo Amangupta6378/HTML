@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link>
+<head>
+
+    <link>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aman</title>
-    <link rel="stylesheet"  href="./index.css">
+    <!-- <link rel="stylesheet"  href="./index.css"> -->
 
     <style>
-        h2{
-            color: red ;
-            background-color: yellow;
-            padding: 100px;
-            margin: 100px;
-            text-align: center;
-            
-        };
+        .head ul li {
+            color: white;
+        }
 
+        ol li {
+            color: green;
+        }
     </style>
 </head>
 
@@ -59,7 +59,9 @@
         <h2>This is heading 2</h2>
         <p style="color: blue;">This is some other text.</p> -->
 
-        <table border=1 style="width:50%">
+    // Table Formation
+
+    <!-- <table border=1 style="width:50%">
            <tr >
             <th >Name</th>
             <th>Class</th>
@@ -82,9 +84,69 @@
 
         <h2 >Hello World</h2>
         <h2 style="background-color: green;">Hello World 2</h2>
-        <h2 style="padding: 50px;  background-color: black;">Hello World 3</h2>
-        <!-- <hr> -->
+        <h2 style="padding: 50px;  background-color: black;">Hello World 3</h2> -->
+    <!-- <hr> -->
     </div>
+
+    <div>
+        <div class="" style="background-color: yellow;">
+            <h1>List</h1>
+            <div class="head" style="background-color: rgb(58, 183, 255); padding: 10px;">
+                <h2>Unordered List</h2>
+                <ul style="background-color: bisque;">
+                    <li>Coffee</li>
+                    <li>Milk</li>
+                    <li>Tea</li>
+                    <li>Water</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <ul style="background-color: bisque;">
+            <li>Coffee</li>
+            <li>Milk</li>
+            <li>Tea</li>
+            <li>Water</li>
+        </ul>
+
+
+        <div>
+            <h2>Ordered List</h2>
+            <ol>
+                <li>Coffee</li>
+                <li>Milk</li>
+                <li>Tea</li>
+                <li>Water</li>
+            </ol>
+        </div>
+
+
+
+        <div>
+            <h2>Description List</h2>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>We should first add water in coffee</dd>
+                <dd>Milk</dd>
+                <dt>Tea</dt>
+                <dd>Water</dd>
+                <dd>Milk</dd>
+            </dl>
+        </div>
+    </div>
+
+
+    <div style="background-color: wheat; display: flex; flex-direction: row;">
+        <div class="aman" style="background-color: gray; color: red; width: 100px;">Aman</div> <br>
+        <div class="aman" style="background-color: rgb(128, 128, 128); color: red; width: 100px;">Aman</div>
+    </div>
+
+    <p style="background-color: gray; color: yellow;">Aman</p>
+    <span style="background-color: gray;">Aman Gupta</span>
+    <span style="background-color: gray;">Rahul Gupta</span>
+    <button disabled onclick="alert('This is button.')" style="background-color: red; color: white; padding: 7px; border: 2px solid black;">Click Me</button>
+
 </body>
 
 </html>
